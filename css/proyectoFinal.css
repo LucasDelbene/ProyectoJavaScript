@@ -1,0 +1,213 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    width: fit-content;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titleInicio{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 20px 0px 50px;
+    width: 30rem;
+    padding: 4rem;
+    border-radius: 10px;
+}
+.title{
+    text-align: center;
+    padding: 2px;
+}
+.lineaDivisoria{
+    margin-top: 50px;
+}
+
+li{
+    padding-top: 20px;
+}
+
+/*PRIMERA QUIZ*/
+.quizUno{
+    background-color: white;
+    width: 30rem;
+    padding: 4rem;
+    border-radius: 10px;
+    border: solid 4px black;
+}
+.preguntaUno{
+    text-align: center;
+}
+.inputUno{
+    list-style-type: none;
+    padding-left: 35%;
+    text-align: left;
+}
+
+
+/*SEGUNDA QUIZ*/
+.quizDos{
+    background-color: white;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 4px black;
+    margin-top: 10px;
+}
+.preguntaDos{
+    text-align: center;
+}
+.inputDos{
+    list-style-type: none;
+    padding-left: 35%;
+    text-align: left;
+}
+
+/*TERCERA QUIZ*/
+.quizTres{
+    background-color: white;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 4px black;
+    margin-top: 10px;
+}
+.preguntaTres{
+    justify-content: center;
+}
+.inputTres{
+    list-style-type: none;
+    padding-left: 35%;
+    text-align: left;
+}
+
+/*CUARTA QUIZ*/
+.quizCuatro{
+    background-color: white;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 4px black;
+    margin-top: 10px;
+}
+.preguntaCuatro{
+    justify-content: center;
+}
+.inputCuatro{
+    list-style-type: none;
+    text-align: start;
+}
+
+/*QUINTA QUIZ*/
+.quizCinco{
+    background-color: white;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 4px black;
+    margin: 10px 0px 50px;
+}
+.preguntaCinco{
+    justify-content: center;
+}
+.inputCinco{
+    list-style-type: none;
+    text-align: start;
+}
+
+
+/*RESULTADO DE QUIZ*/
+.botones{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 20px 0px 50px;
+    width: 30rem;
+    padding: 4rem;
+    border-radius: 10px;
+}
+.evaluar{
+    background-color: white;
+    color: black;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid white;
+    padding: 10px 20px;
+    margin: 10px 40px 10px;
+}.evaluar:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+.reset{
+    background-color: white;
+    color: black;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid white;
+    padding: 10px 20px;
+    margin: 10px 40px 10px;
+}.reset:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.titleResultado{
+    background-color: black;
+    color: white;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 4px black;
+    margin: 10px 0px 50px;
+}
+
+.table{
+    margin: 150px auto;
+    width: 600px;
+    text-align: left;
+    
+    background-color: white;
+    border-collapse: collapse;
+}
+.table th, td{
+    border: solid 1px white;
+    padding: 20px;
+}
+.table td{
+    background-color: black;
+    color: white;
+}
+
+
+/*IMAGENES DE LOS FUTBOLISTAS (SWEET ALERT 2)*/
+.botonesImagenes{
+    background-color: black;
+    width: 32rem;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+    border:white solid;
+}
+
+.titleFutbolistas{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+

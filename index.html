@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ DE FUTBOL</title>
+    <link rel="stylesheet" href="css/proyectoFinal.css">
+</head>
+
+<body>
+    <h1 class="titleInicio">QUIZ DE FUTBOL</h1>
+  
+    <div class="quizUno">
+        <h2 class="title">QUIZ 1</h2>
+        <hr/>
+        
+        <h2 class="preguntaUno">Brasilero. Delantero. Jugó bastante tiempo en Zenit de Rusia. Tiene de nombre un personaje de una pelicula.</h2>
+        <div>
+            <ul class="inputUno">
+              <li><input type="radio" name="p1" value="RICHARLISON">RICHARLISON</li>
+              <li><input type="radio" name="p1" value="DOUGLAS">DOUGLAS</li>
+              <li><input type="radio" name="p1" value="HULK">HULK</li>
+              <li><input type="radio" name="p1" value="MALCOM">MALCOM</li>
+            </ul>
+        </div>
+        <hr class="lineaDivisoria"/>
+    </div>
+    
+    <div class="quizDos">
+        <h2 class="title">QUIZ 2</h2>
+        <hr/>
+        <h2 class="preguntaDos">Argentino. Delantero. Jugó en Juventus de Italia. Luego de Juventus, jugó en Argentina y despues se fue a China.</h2>
+        <ul class="inputDos">
+            <li><input type="radio" name="p2" value="HIGUAIN">HIGUAIN</li>
+            <li><input type="radio" name="p2" value="TEVEZ">TEVEZ</li>
+            <li><input type="radio" name="p2" value="DYBALA">DYBALA</li>
+            <li><input type="radio" name="p2" value="DIMARIA">DIMARIA</li>
+        </ul>
+        <hr class="lineaDivisoria"/>
+    </div>
+    
+    <div class="quizTres">
+        <h2 class="title">QUIZ 3</h2>
+        <hr/>
+        <h2 class="preguntaTres">Argentino. Delantero. Jugó en un equipo de Argentina. Tiene de apodo el nombre de un arácnido. Fue comprado por un equipo importante de la Premier League.</h2>
+        <ul class="inputTres">
+            <li><input type="radio" name="p3" value="ALARIO">ALARIO</li>
+            <li><input type="radio" name="p3" value="AGUERO">AGUERO</li>
+            <li><input type="radio" name="p3" value="BUENDIA">BUENDIA</li>
+            <li><input type="radio" name="p3" value="JULIAN ALVAREZ">JULIAN ALVAREZ</li>
+        </ul>
+        <hr class="lineaDivisoria"/>  
+    </div>
+    
+    <div class="quizCuatro">
+        <h2 class="title">QUIZ 4</h2>
+        <hr/>
+        <h2 class="preguntaCuatro">Colombiano. Delantero. Jugó en equipos de España, Inglaterra y Francia. Es uno de los mayores goleadores de su pais natal.</h2>
+        <ul class="inputTres">
+            <li><input type="radio" name="p4" value="JAMES">JAMES</li>
+            <li><input type="radio" name="p4" value="LUIS DIAZ">LUIS DIAZ</li>
+            <li><input type="radio" name="p4" value="DUVAN ZAPATA">DUVAN ZAPATA</li>
+            <li> <input type="radio" name="p4" value="FALCAO">FALCAO</li>
+        </ul>
+        <hr class="lineaDivisoria"/>
+    </div>
+    
+    <div class="quizCinco">
+        <h2 class="title">QUIZ 5</h2>
+        <hr/>
+        <h2 class="preguntaCinco">Argentino. Delantero. Jugó varios años en un mismo equipo desde juveniles. Tiene 3 hijos.</h2>
+        <ul class="inputTres">
+            <li><input type="radio" name="p5" value="PAPU GOMEZ">PAPU GOMEZ</li>
+            <li><input type="radio" name="p5" value="LAUTARO MARTINEZ">LAUTARO MARTINEZ</li>
+            <li><input type="radio" name="p5" value="MESSI">MESSI</li>
+            <li><input type="radio" name="p5" value="ANGEL CORREA">ANGEL CORREA</li>
+        </ul>
+        <hr class="lineaDivisoria"/>
+    </div>
+                
+    <div>
+        <h2 class="titleResultado">RESULTADO</h2>
+        <div id="resultado"></div>
+    </div>
+           
+    <div class="botones">
+        <button onclick="evaluarQuiz()" class="evaluar">EVALUAR</button>
+        <button onclick="resetQuiz()" class="reset">RESET</button>
+    </div>
+
+    <div class="botonesImagenes">
+        <h2 class="titleFutbolistas">IMAGENES DE LOS FUTBOLISTAS</h2>
+        <hr>
+        <button class="botonesUno" id="botonRicharlison">RICHARLISON</button>
+        <button class="botonesUno" id="botonDouglas">DOUGLAS</button>
+        <button class="botonesUno" id="botonHulk">HULK</button>
+        <button class="botonesUno" id="botonMalcom">MALCOM</button>
+        <hr>
+        <button class="botonesDos" id="botonHiguain" name="p2" value="HIGUAIN">HIGUAIN</button>
+        <button class="botonesDos" id="botonTevez"   name="p2" value="TEVEZ">TEVEZ</button>
+        <button class="botonesDos" id="botonDybala"  name="p2" value="DYBALA">DYBALA</button>
+        <button class="botonesDos" id="botonDiMaria" name="p2" value="DI MARIA">DI MARIA</button>
+        <hr>
+        <button class="botonesTres" id="botonAlario"  name="p3" value="LUCAS ALARIO">LUCAS ALARIO</button>
+        <button class="botonesTres" id="botonAguero"  name="p3" value="KUN AGUERO">KUN AGUERO</button>
+        <button class="botonesTres" id="botonBuendia" name="p3" value="EMI BUENDIA">EMI BUENDIA</button>
+        <button class="botonesTres" id="botonJulian"  name="p3" value="JULIAN ALVAREZ">JULIAN ALVAREZ</button>
+        <hr>
+        <button class="botonesCuatro" id="botonJames"       name="p4" value="JAMES RODRIGUEZ">JAMES RODRIGUEZ</button>
+        <button class="botonesCuatro" id="botonLuisDiaz"    name="p4" value="LUIS DIAZ">LUIS DIAZ</button>
+        <button class="botonesCuatro" id="botonDuvanZapata" name="p4" value="DUVAN ZAPATA">DUVAN ZAPATA</button>
+        <button class="botonesCuatro" id="botonFalcao"      name="p4" value="FALCAO">FALCAO</button>
+        <hr>
+        <button class="botonesCinco" id="botonPapuGomez"       name="p5" value="PAPU GOMEZ">PAPU GOMEZ</button>
+        <button class="botonesCinco" id="botonLautaroMartinez" name="p5" value="LAUTARO MARTINEZ">LAUTARO MARTINEZ</button>
+        <button class="botonesCinco" id="botonMessi"           name="p5" value="MESSI">MESSI</button>
+        <button class="botonesCinco" id="botonAngelCorrea"     name="p5" value="ANGEL CORREA">ANGEL CORREA</button>
+        <hr>
+    </div>
+    
+    <script src="js/proyectoFinal.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
